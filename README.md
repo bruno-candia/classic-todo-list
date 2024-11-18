@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/ede7ac94-084e-4ccb-9994-464b9029d1ce)
+
 # Classic To-Do List
 
 ## 📋 About the Project
