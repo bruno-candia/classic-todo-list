@@ -1,0 +1,19 @@
+.taskInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  & h2 {
+    font-size: 0.875rem;
+    font-weight: bold;
+  }
+}
+
+.done {
+  color: var(--purple);
+}
+
+.created {
+  color: var(--blue);
+}

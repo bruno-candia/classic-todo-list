@@ -1,0 +1,25 @@
+.emptyTaskList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4rem 1.5rem;
+  gap: 16px;
+}
+
+.emptyContent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  & p {
+    text-align: center;
+    line-height: 1.4;
+    font-size: 1rem;
+    color: var(--gray-300);
+
+    & span {
+      font-weight: bold;
+    }
+  }
+}

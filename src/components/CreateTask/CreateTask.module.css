@@ -1,0 +1,15 @@
+.createTaskWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: calc(0px - 26px);
+}
+
+.createTaskContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 51.11%;
+}

@@ -1,0 +1,63 @@
+classic-todo-list
+ ┣ public
+ ┃ ┗ vite.svg
+ ┣ src
+ ┃ ┣ assets
+ ┃ ┃ ┣ android-chrome-192x192.png
+ ┃ ┃ ┣ android-chrome-512x512.png
+ ┃ ┃ ┣ apple-touch-icon.png
+ ┃ ┃ ┣ Clipboard.png
+ ┃ ┃ ┣ favicon-16x16.png
+ ┃ ┃ ┣ favicon-32x32.png
+ ┃ ┃ ┣ favicon.ico
+ ┃ ┃ ┣ rocket-logo.svg
+ ┃ ┃ ┣ site.webmanifest
+ ┃ ┃ ┗ todo-logo.svg
+ ┃ ┣ components
+ ┃ ┃ ┣ Button
+ ┃ ┃ ┃ ┣ Button.module.css
+ ┃ ┃ ┃ ┗ index.tsx
+ ┃ ┃ ┣ Counter
+ ┃ ┃ ┃ ┣ Counter.module.css
+ ┃ ┃ ┃ ┗ index.tsx
+ ┃ ┃ ┣ CreateTask
+ ┃ ┃ ┃ ┣ CreateTask.module.css
+ ┃ ┃ ┃ ┗ index.tsx
+ ┃ ┃ ┣ EmptyTask
+ ┃ ┃ ┃ ┣ EmptyTask.module.css
+ ┃ ┃ ┃ ┗ index.tsx
+ ┃ ┃ ┣ Header
+ ┃ ┃ ┃ ┣ Header.module.css
+ ┃ ┃ ┃ ┗ index.tsx
+ ┃ ┃ ┣ Input
+ ┃ ┃ ┃ ┣ index.tsx
+ ┃ ┃ ┃ ┗ Input.module.css
+ ┃ ┃ ┣ Logo
+ ┃ ┃ ┃ ┣ index.tsx
+ ┃ ┃ ┃ ┗ Logo.module.css
+ ┃ ┃ ┣ TaskInfo
+ ┃ ┃ ┃ ┣ index.tsx
+ ┃ ┃ ┃ ┗ TaskInfo.module.css
+ ┃ ┃ ┣ TaskItem
+ ┃ ┃ ┃ ┣ index.tsx
+ ┃ ┃ ┃ ┗ TaskItem.module.css
+ ┃ ┃ ┗ TaskList
+ ┃ ┃ ┃ ┣ index.tsx
+ ┃ ┃ ┃ ┗ TaskList.module.css
+ ┃ ┣ hooks
+ ┃ ┃ ┗ useHandleTasks.ts
+ ┃ ┣ App.tsx
+ ┃ ┣ global.css
+ ┃ ┣ main.tsx
+ ┃ ┗ vite-env.d.ts
+ ┣ .gitignore
+ ┣ eslint.config.js
+ ┣ index.html
+ ┣ package-lock.json
+ ┣ package.json
+ ┣ README.md
+ ┣ tsconfig.app.json
+ ┣ tsconfig.json
+ ┣ tsconfig.node.json
+ ┣ utility.css
+ ┗ vite.config.ts

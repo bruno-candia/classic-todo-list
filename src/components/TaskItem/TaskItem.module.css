@@ -1,0 +1,68 @@
+.taskItem {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+  overflow-wrap: anywhere;
+
+  & input[type="checkbox"] {
+    position: absolute;
+    left: -100vw;
+  }
+
+  & input[type="checkbox"]:checked ~ p {
+    text-decoration: line-through;
+    color: var(--gray-300);
+  }
+
+  & input[type="checkbox"]:checked + label .checkedCircle {
+    display: block;
+  }
+
+  & input[type="checkbox"]:checked + label .circle {
+    display: none;
+  }
+
+  & label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+  }
+
+  & span {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+
+    & p {
+      display: flex;
+      align-self: center;
+      font-size: 0.875rem;
+      color: var(--gray-100);
+      line-height: 1.4;
+    }
+  }
+
+  & button {
+    line-height: 0;
+    padding: 1px;
+    background: transparent;
+    border: 0;
+    color: var(--gray-300);
+  }
+}
+
+.checkedCircle {
+  display: none;
+  color: var(--purple-dark);
+}
+
+.circle {
+  display: block;
+  color: var(--blue);
+}
